@@ -8,17 +8,63 @@
 }
 
 .App-header {
-  background-color: #222;
+  background-color: blue;
   height: 150px;
   padding: 20px;
   color: white;
+
+}
+
+.App-title {
+  font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
 }
 
+#title {
+  text-align: center;
+}
+
+#b1{  
+  margin-right: 10%;
+}
+
+#b2{  
+  margin-right: 10%;
+  margin-left: 0px;
+}
+
+#b3{  
+  margin-right: 10%;
+  margin-left: 0px;
+}
+
+#b4{  
+  margin-left: 0px;
+}
+
+.NavButton {
+    width: 50px;
+    height: 50px;
+    margin-top: -15px;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+footer {
+    /*background-color: #F8F8F8;*/
+    border-top: 1px solid #E7E7E7;
+    text-align:center;
+    padding:20px;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
 }
